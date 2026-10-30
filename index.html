@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mustaqil Ish Taqdimoti - Nutq</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --cue-bg: #fff3cd;
+            --cue-text: #856404;
+            --text-color: #333;
+            --bg-color: #f4f7f6;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        .slide-block {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed #ddd;
+        }
+
+        .slide-block:last-child {
+            border-bottom: none;
+        }
+
+        .slide-title {
+            color: var(--accent-color);
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .slide-title span {
+            background-color: var(--accent-color);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 5px;
+            font-size: 0.8em;
+            margin-right: 10px;
+            white-space: nowrap;
+        }
+
+        .cue {
+            background-color: var(--cue-bg);
+            color: var(--cue-text);
+            padding: 10px 15px;
+            border-left: 4px solid #ffeeba;
+            font-style: italic;
+            margin-bottom: 15px;
+            border-radius: 0 4px 4px 0;
+            font-size: 0.95em;
+        }
+
+        .speech-text {
+            font-size: 1.15em;
+            color: #111;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: var(--primary-color);
+            background-color: #e8f4fd;
+            padding: 0 4px;
+            border-radius: 3px;
+        }
+
+        .tips {
+            background-color: #e8f4fd;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 40px;
+            border: 1px solid #b6d4fe;
+        }
+
+        .tips h3 {
+            color: #052c65;
+            margin-top: 0;
+        }
+
+        .tips ul {
+            margin: 0;
+            padding-left: 20px;
+            color: #084298;
+        }
+
+        /* TELEFON EKRANLARI UCHUN MOSLASHTIRISH */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 20px 15px;
+                border-radius: 8px;
+            }
+
+            h1 {
+                font-size: 1.4em;
+                margin-bottom: 20px;
+            }
+
+            .slide-title {
+                flex-direction: column;
+                align-items: flex-start;
+                font-size: 1.2em;
+            }
+
+            .slide-title span {
+                margin-bottom: 8px;
+            }
+
+            .speech-text {
+                font-size: 1.1em;
+                text-align: left; /* Telefonda justify xunuk ko'rinadi, shuning uchun chapga tekislandi */
+                line-height: 1.7;
+            }
+
+            .cue {
+                font-size: 0.9em;
+                padding: 10px;
+            }
+
+            .tips {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎤 Taqdimot Nutqi: QMQ va Eurocode 8</h1>
+
+        <!-- 1-slayd -->
+        <div class="slide-block">
+            <div class="slide-title"><span>1-slayd</span> Boshlanishi</div>
+            <div class="cue">👉 Domla 1-slaydni qo'yganda boshlaysiz:</div>
+            <div class="speech-text">
+                "Assalomu alaykum, hurmatli domla va guruhdoshlar. Bizga berilgan mustaqil ishning asosiy maqsadi – o'zimizning QMQ normalaridan biror bo'limni olib, uni Yevrokod bilan taqqoslash edi. Men bu borada o'zimizning amaldagi <span class="highlight">QMQ 2.01.03 ("Seysmik hududlarda qurilish")</span> me'yorini Yevropaning seysmik standarti — <span class="highlight">Eurocode 8 (yoki EN 1998-1)</span> bilan solishtirishni tanladim. Ya'ni, temirbeton karkasli binolar qurishda bizning me'yor qanday talab qo'yadi-yu, Yevropa qanday yechim beradi, shuni ko'rib chiqdim."
+            </div>
+        </div>
+
+        <!-- 2-4 slaydlar -->
+        <div class="slide-block">
+            <div class="slide-title"><span>2-4 slaydlar</span> Reja va Dolzarblik</div>
+            <div class="cue">👉 Domlaga 2-slaydga o'tishga ishora sifatida ozgina to'xtalib davom etasiz:</div>
+            <div class="speech-text">
+                "Ikkinchi slayddagi rejaga qisqacha to'xtalsak, bugun asosan zilzila kuchini qanday o'lchashimizni, binoning karkas turlarini, armatura talablarini taqqoslaymiz va oxirida o'zim bajargan kichik bitta hisob misolini ko'rib o'tamiz."
+            </div>
+            <div class="cue">👉 3-slaydga o'tganda (domla o'zi o'tkazadi):</div>
+            <div class="speech-text">
+                "Bu mavzuni olganimning sababi, shaharlarimizda aynan temirbeton karkasli binolar juda ko'p qurilyapti. Turkiya zilzilasida ham aynan shunday binolardagi ba'zi zaif joylar ko'p xatoliklarga olib kelgani hammamizga ma'lum. Keling, me'yorlardagi asosiy farqlarga o'tsak..."
+            </div>
+        </div>
+
+        <!-- 5-8 slaydlar -->
+        <div class="slide-block">
+            <div class="slide-title"><span>5-8 slaydlar</span> Asosiy farqlar</div>
+            <div class="cue">👉 5-slaydga o'tilganda (Ball va agR):</div>
+            <div class="speech-text">
+                "Eng birinchi va katta farq – zilzila kuchini ifodalashda ekan. Bilasizlar, QMQ zilzilani 7, 8, 9 ball deb hisoblaydi. Yevrokod esa ballni umuman ishlatmaydi. U bevosita yer harakatining tezlanishi bilan hisob-kitob qiladi. Bu <span class="highlight">agR ('a-ge-er' deb o'qiladi)</span> harfi bilan belgilanadi. Ya'ni u ball emas, fizika kursidan hammamiz biladigan tezlanish – m/s² (metr taqsim sekund kvadrat) da o'lchanadi."
+            </div>
+            <div class="cue">👉 6-7 slaydlarni qisqa o'tkazib, 8-slaydga kelganda:</div>
+            <div class="speech-text">
+                "Bino sxemalariga kelsak, prinsiplar deyarli o'xshash. Lekin sakkizinchi slaydda juda muhim bir qoida bor: <span class="highlight">'Kuchli ustun – kuchsiz rigel'</span> degan qoida. Bu nima degani? Zilzilada bino bittada qulamay, avval rigel (balka)lari egilsin, lekin ustunlari butun qolsin degani. Bizning QMQ buni oddiy matn bilan tavsiya sifatida bergan. Yevrokod esa buning uchun aniq formula kiritgan va qat'iy majburiy qilib qo'ygan."
+            </div>
+        </div>
+
+        <!-- 13-19 slaydlar -->
+        <div class="slide-block">
+            <div class="slide-title"><span>13-19 slaydlar</span> Egiluvchan qavat va Materiallar</div>
+            <div class="cue">👉 Domlaga ishora qilib, 13-14 slaydlarga o'tganda:</div>
+            <div class="speech-text">
+                "Yana bir xavfli holatni ko'rsatib o'tmoqchiman. Bu <span class="highlight">'egiluvchan birinchi qavat'</span> muammosi. Ya'ni, ko'p binolarda birinchi qavat do'kon bo'ladi deb devorlar olib tashlanadi va faqat ustunlar qoladi. Bu zilzila vaqtida bino aynan shu yerdan sinishiga olib keladi. QMQ buni yomon gruntlarda qat'iyan taqiqlaydi. Yevrokod taqiqlamaydi, lekin yukini sun'iy ravishda ancha oshirib hisoblashni talab qiladi."
+            </div>
+            <div class="cue">👉 16-slaydga kelganda (Armatura):</div>
+            <div class="speech-text">
+                "Materiallar talabida juda qiziq farq chiqdi. Yevrokod po'latning sifatiga ancha talabchan. QMQ ruxsat berganidan ko'ra, Yevropa me'yori po'latimizni taxminan 2-3 barobar ko'proq uzayuvchan (ya'ni plastik, cho'ziluvchan) bo'lishini talab qilar ekan."
+            </div>
+            <div class="cue">👉 18-19 slaydlarga kelganda (Xomutlar):</div>
+            <div class="speech-text">
+                "Lekin xomutlarga <i>(xomut – ustun va rigellardagi asosiy armaturani o'rab turuvchi halqa)</i> kelganda vaziyat teskari. Bizning QMQ ancha qattiqqo'l. Masalan, 9 ballda QMQ xomut oralaridagi qadamni 10 sm gacha qisqartirishni so'raydi, Yevrokodda esa bu masofa kattaroq chiqadi."
+            </div>
+        </div>
+
+        <!-- 21 va 24 slaydlar -->
+        <div class="slide-block">
+            <div class="slide-title"><span>21, 24 slaydlar</span> Hisob misoli va Xulosa</div>
+            <div class="cue">👉 21-slaydga kelganda:</div>
+            <div class="speech-text">
+                "Shu farqlarni o'zim hisoblab ko'rish uchun kichik misol yechib ko'rdim (21-slaydda). Ustuni 50x50, rigeli 30x60 bo'lgan tugunni hisoblaganimda... Natija shuni ko'rsatdiki, xomut qadami va kritik zona uzunligi bo'yicha bizning QMQ (9 ballda) Yevropaning eng qattiq talablaridan ham xavfsizroq va qattiqroq ekan."
+            </div>
+            <div class="cue">👉 24-slaydga (xulosaga) o'tishga ishora qilib:</div>
+            <div class="speech-text">
+                "Vaqtni tejash uchun, ruxsatingiz bilan, oxirgi xulosa qismiga o'tsam...<br><br>
+                Xulosa qilib shuni aytishim mumkinki: QMQ va Yevrokod bir-biridan 100% farq qiladi deb ham bo'lmaydi, bir xil ham deb bo'lmaydi. Har birining o'z ustunlik tarafi bor. <span class="highlight">QMQ karkas va xomutlarni ancha qattiq ushlaydi. Yevrokod esa material (po'lat) sifatiga va formulalar bilan hisoblashga kuchli e'tibor beradi.</span><br><br>
+                Shuning uchun, Yevropa me'yoriga o'tamiz deganimizda, shunchaki matnni tarjima qilib bo'lmaydi, o'zimizning sharoitdan, armaturalarimizdan kelib chiqib aniq 'Milliy ilova' ishlab chiqishimiz kerak ekan.<br><br>
+                E'tiboringiz uchun rahmat! Savollar bo'lsa javob berishga tayyorman."
+            </div>
+        </div>
+
+        <div class="tips">
+            <h3>💡 Prezentatsiya vaqtidagi maslahatlar:</h3>
+            <ul>
+                <li>Sariq fondagi yozuvlar - o'zingiz uchun ishoralar, ularni ovoz chiqarib o'qimaysiz.</li>
+                <li>To'q rangda belgilangan (qalin qilingan) so'zlarga urg'u berib gapiring, shunda ishonchli chiqadi.</li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+</html>
